@@ -9,7 +9,7 @@ Third-party dependencies:
 - SoLoud: https://solhsa.com/soloud/ - Converted from a C# Wrapper
 - GLFW: https://www.glfw.org/
 - STBImage: https://github.com/nothings/stb - Custom written wrapper
-- STBImage: Same as STBImage
+- STBTrueType: Same as STBImage
 
 Assets:
 - Kenney Voxel Asset Pack
