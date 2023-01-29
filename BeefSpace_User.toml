@@ -1,0 +1,119 @@
+FileVersion = 1
+LastConfig = "Debug"
+LastPlatform = "Win64"
+RecentFilesList = ["Disassembly", "Disassembly", "Disassembly", "Disassembly"]
+
+[MainWindow]
+X = 445
+Y = 409
+Width = 2828
+Height = 1667
+ShowKind = "Maximized"
+
+[MainDockingFrame]
+Type = "DockingFrame"
+SplitType = 2
+
+[[MainDockingFrame.DockedWidgets]]
+RequestedWidth = 4284.0
+RequestedHeight = 468.0
+SizePriority = 0.4963119
+Type = "DockingFrame"
+SplitType = 1
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 543.0
+RequestedHeight = 442.0
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Workspace"
+TabWidth = 112.5768
+Type = "ProjectPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 2146.38
+RequestedHeight = 468.0
+SizePriority = 2146.38
+Type = "DockingFrame"
+SplitType = 2
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets]]
+IsFillWidget = true
+Permanent = true
+RequestedWidth = 2017.56
+RequestedHeight = 791.38
+SizePriority = 791.38
+DefaultDocumentsTabbedView = true
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets]]
+RequestedWidth = 260.0
+RequestedHeight = 494.0
+Type = "DockingFrame"
+SplitType = 1
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.DockedWidgets]]
+RequestedWidth = 260.0
+RequestedHeight = 260.0
+SizePriority = 1182.0
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Errors"
+TabWidth = 82.51538
+Type = "ErrorsPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Memory"
+TabWidth = 97.85283
+Type = "MemoryPanel"
+AutoResize = "Auto_Mul8"
+RequestedWidth = 300.0
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Watch"
+TabWidth = 86.19637
+Type = "WatchPanel"
+Columns = [{Width = 238.0}, {Width = 238.0}, {Width = 238.0}]
+Items = ["MaterialInstanceProperties", ""]
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Auto"
+TabWidth = 77.6074
+Type = "AutoWatchPanel"
+Columns = [{Width = 693.0}, {Width = 740.0}, {Width = 238.0}]
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.DockedWidgets]]
+RequestedWidth = 260.0
+RequestedHeight = 260.0
+SizePriority = 1182.0
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Find Results"
+TabWidth = 118.0983
+Type = "FindResultsPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Threads"
+TabWidth = 94.78534
+Type = "ThreadPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Call Stack"
+TabWidth = 103.9878
+Type = "CallStackPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Immediate"
+TabWidth = 110.7363
+Type = "ImmediatePanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Output"
+TabWidth = 90.49085
+Type = "OutputPanel"

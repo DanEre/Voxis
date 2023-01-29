@@ -1,0 +1,10 @@
+FileVersion = 1
+
+[Project]
+Name = "VoxisAdventure"
+StartupObject = "Voxis.Program"
+DefaultNamespace = "Voxis"
+
+[Configs.Debug.Win64]
+LibPaths = ["$(ProjectDir)/dist/debug/x64/glfw3dll.lib", "$(ProjectDir)/dist/debug/x64/STBLib.lib", "$(ProjectDir)/dist/debug/x64/sokol.lib"]
+PostBuildCmds = ["CopyFilesIfNewer(\"$(ProjectDir)/dist/debug/x64/*.dll\", \"$(TargetDir)/\")", "CopyFilesIfNewer(\"$(ProjectDir)/assets/*\", \"$(TargetDir)/assets/\")"]
